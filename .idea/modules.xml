@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-gatewat9527/cloud-gatewat9527.iml" filepath="$PROJECT_DIR$/cloud-gatewat9527/cloud-gatewat9527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-nacos-comsumer-order80/cloud-nacos-comsumer-order80.iml" filepath="$PROJECT_DIR$/cloud-nacos-comsumer-order80/cloud-nacos-comsumer-order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-nacos-config3377/cloud-nacos-config3377.iml" filepath="$PROJECT_DIR$/cloud-nacos-config3377/cloud-nacos-config3377.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-nacos-openfeign-order84/cloud-nacos-openfeign-order84.iml" filepath="$PROJECT_DIR$/cloud-nacos-openfeign-order84/cloud-nacos-openfeign-order84.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-nacos-provider-payment9001/cloud-nacos-provider-payment9001.iml" filepath="$PROJECT_DIR$/cloud-nacos-provider-payment9001/cloud-nacos-provider-payment9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-nacos-provider-payment9002/cloud-nacos-provider-payment9002.iml" filepath="$PROJECT_DIR$/cloud-nacos-provider-payment9002/cloud-nacos-provider-payment9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-seata-account2003/cloud-seata-account2003.iml" filepath="$PROJECT_DIR$/cloud-seata-account2003/cloud-seata-account2003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-seata-order2001/cloud-seata-order2001.iml" filepath="$PROJECT_DIR$/cloud-seata-order2001/cloud-seata-order2001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-seata-storage2002/cloud-seata-storage2002.iml" filepath="$PROJECT_DIR$/cloud-seata-storage2002/cloud-seata-storage2002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud2020.iml" filepath="$PROJECT_DIR$/cloud2020.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cch.springcloud.mapper.OrderMapper">
+    <resultMap id="orderResult" type="com.cch.springcloud.domain.Order">
+        <id column="id" property="id" jdbcType="BIGINT"></id>
+        <result column="user_id" property="user_id" jdbcType="BIGINT"></result>
+        <result column="product_id" property="product_id" jdbcType="BIGINT"></result>
+        <result column="count" property="count" jdbcType="INTEGER"></result>
+        <result column="money" property="money" jdbcType="DECIMAL"></result>
+        <result column="status" property="status" jdbcType="INTEGER"></result>
+    </resultMap>
+
+    <insert id="create" parameterType="com.cch.springcloud.domain.Order">
+        INSERT t_order(user_id,product_id,`count`,money,status)
+        VALUES (#{user_id},#{product_id},#{count},#{money},0);
+    </insert>
+
+    <update id="update">
+        update t_order set status = 1
+        WHERE user_id=#{user_id} and status = #{status};
+    </update>
+</mapper>

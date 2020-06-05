@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cch.springcloud.mapper.StorageMapper">
+    <resultMap id="StorageResult" type="com.cch.springcloud.domain.Storage">
+        <id column="id" property="id" jdbcType="BIGINT"></id>
+        <result column="product_id" property="product_id" jdbcType="BIGINT"></result>
+        <result column="total" property="total" jdbcType="INTEGER"></result>
+        <result column="used" property="used" jdbcType="INTEGER"></result>
+        <result column="residue" property="residue" jdbcType="INTEGER"></result>
+    </resultMap>
+
+    <update id="decrease">
+        UPDATE t_storage
+        SET used = used + #{count},residue = residue - #{count}
+        WHERE product_id = #{product_id}
+    </update>
+</mapper>

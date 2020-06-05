@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-gatewat9527" />
+        <module name="cloud-nacos-comsumer-order80" />
+        <module name="cloud-nacos-config3377" />
+        <module name="cloud-nacos-getaway9527" />
+        <module name="cloud-nacos-openfeign-order84" />
+        <module name="cloud-nacos-provider-payment9001" />
+        <module name="cloud-nacos-provider-payment9002" />
+        <module name="cloud-seata-account2003" />
+        <module name="cloud-seata-order2001" />
+        <module name="cloud-seata-storage2002" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-api-commons" target="1.8" />
+      <module name="cloud-gatewat9527" target="1.8" />
+      <module name="cloud-nacos-comsumer-order80" target="1.8" />
+      <module name="cloud-nacos-config3377" target="1.8" />
+      <module name="cloud-nacos-getaway9527" target="1.8" />
+      <module name="cloud-nacos-openfeign-order84" target="1.8" />
+      <module name="cloud-nacos-provider-payment9001" target="1.8" />
+      <module name="cloud-nacos-provider-payment9002" target="1.8" />
+      <module name="cloud-seata-account2003" target="1.8" />
+      <module name="cloud-seata-order2001" target="1.8" />
+      <module name="cloud-seata-storage2002" target="1.8" />
+      <module name="cloud2020" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
